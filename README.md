@@ -5,10 +5,9 @@ Sign Language Detector
 기술 구현을 위해 opencv, mediapipe를 이용하였습니다.
 <p>![signStudy](https://github.com/sehwan12/signLang/assets/58384653/f6241e2c-486f-4be1-babc-ec61cd0e9f36) </p>
 -수어 인식 훈련
-<p>![signDetect](https://github.com/sehwan12/signLang/assets/58384653/73468da7-a555-4f43-81f9-dfe8e2f05857)</p>
+<p><src=![signDetect](https://github.com/sehwan12/signLang/assets/58384653/73468da7-a555-4f43-81f9-dfe8e2f05857)></p>
 -훈련된 알고리즘으로 수어 인식 후 텍스트 출력
 <p><src=![signDetect2](https://github.com/sehwan12/signLang/assets/58384653/a86d1a69-a3ad-47d7-bede-5e8597e4d958)></p>
-
 -초성+중성까지 출력한 모습
 ----
 2.배경지식
