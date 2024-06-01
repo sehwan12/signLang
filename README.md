@@ -19,6 +19,7 @@ Sign Language Detector
 -훈련된 알고리즘으로 수어 인식 후 텍스트 출력
 
 <br />
+
 ![signDetect2](https://github.com/sehwan12/signLang/assets/58384653/a86d1a69-a3ad-47d7-bede-5e8597e4d958)
 
 -초성+중성까지 출력한 모습<br />
@@ -27,6 +28,7 @@ Sign Language Detector
   <h2>
 2.배경지식
   </h2>
+  
 ![img](https://github.com/sehwan12/signLang/assets/58384653/56cc5552-a3cb-4d1c-b953-499230fd57aa)
 
 mediapipe에서 손 인식은 손 부분마다 벡터를 나눠 인식한다.<br />
