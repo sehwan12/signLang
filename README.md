@@ -16,6 +16,7 @@ Sign Language Detector
 </p>
 <p>
 2.배경지식
+  
 ![img](https://github.com/sehwan12/signLang/assets/58384653/56cc5552-a3cb-4d1c-b953-499230fd57aa)
 
 mediapipe에서 손 인식은 손 부분마다 벡터를 나눠 인식한다.<br />
