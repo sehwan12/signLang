@@ -33,7 +33,7 @@ cap = cv2.VideoCapture(0)
 startTime = time.time()
 prev_index = 0
 sentence = ''
-recognizeDelay = 1
+recognizeDelay = 2
 
 while True:
     ret, img = cap.read()
@@ -49,7 +49,7 @@ while True:
             for j, lm in enumerate(res.landmark):
                 joint[j] = [lm.x, lm.y, lm.z]
 
-            v1 = joint[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], :]
+            v1 = joint[[0, 1, 2, 3, 0, 5, 6, 7, 0, 9, 10, 11, 10, 13, 14, 15, 0, 17, 18, 19], :]
             v2 = joint[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], :]
             v = v2 - v1
 
