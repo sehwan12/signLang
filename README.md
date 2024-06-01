@@ -4,6 +4,7 @@ Sign Language Detector
 1.Overview
 이 프로그램은 웹캠에서 손 인식을 통해 한국어 수어를 인식해 출력하는 프로그램입니다.<br />
 기술 구현을 위해 opencv, mediapipe를 이용하였습니다.<br />
+  
 ![signStudy](https://github.com/sehwan12/signLang/assets/58384653/f6241e2c-486f-4be1-babc-ec61cd0e9f36)
 
 수어 인식 훈련
